@@ -1,0 +1,57 @@
+* {	
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	/**text-align: justify;*/
+}
+/** Alinhamento do menu*/
+span {
+	padding-right: 320px; 	
+}
+
+#menu ul {
+	margin: 0px;
+	background-color: #009999;
+	list-style: none;
+}
+/** put it aside (deixa de lado)*/
+#menu ul li {
+	display: inline; 	
+}	
+/** first 15px is top/bottom || 10px is left/right*/
+#menu ul li a {									
+	padding: 15px 10px;	
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color:#003333;
+}
+
+#mapa {
+	width: 100%;
+	height: 450px;
+}
+/** Configurações do texto */
+#texto {
+	padding: 10px 5px;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	height: 50px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#logo {
+	width: ;
+	height: ;
+}
